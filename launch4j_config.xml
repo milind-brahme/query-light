@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Software\Data\Gdrive\my_java_projects\runsql_anony\out\artifacts\runsql_anony_jar\runsql_anony.jar</jar>
+  <outfile>C:\Software\Data\Gdrive\my_java_projects\runsql_anony\QueryLight.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Software\Data\Gdrive\my_java_projects\runsql_anony\src\runsql_anony\db1-icon.ico</icon>
+  <jre>
+    <path>C:\Software\tools\java</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>2000</initialHeapSize>
+    <maxHeapSize>4000</maxHeapSize>
+  </jre>
+</launch4jConfig>

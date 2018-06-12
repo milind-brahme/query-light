@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="536.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="runsql_anony.LoginScrController">
+   <children>
+      <TableView fx:id="tabDBList" layoutX="16.0" layoutY="11.0" prefHeight="516.0" prefWidth="425.0">
+        <columns>
+        </columns>
+      </TableView>
+      <TextField fx:id="userName" layoutX="469.0" layoutY="58.0" prefHeight="24.0" prefWidth="171.0" promptText="User" />
+      <PasswordField fx:id="password" layoutX="469.0" layoutY="115.0" prefHeight="24.0" prefWidth="171.0" promptText="Password" />
+      <ComboBox editable="true"  fx:id="comboAllDBList" layoutX="469.0" layoutY="167.0" prefHeight="39.0" prefWidth="258.0" promptText="Database" />
+      <TextArea layoutX="469.0" layoutY="223.0" prefHeight="39.0" prefWidth="273.0" promptText="JDBC" fx:id="jdbcUrl"/>
+      <Button layoutX="469.0" layoutY="296.0" mnemonicParsing="false" text="Login" fx:id="btnSubmit" />
+   </children>
+</AnchorPane>

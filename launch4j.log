@@ -1,0 +1,32 @@
+
+
+Version:	3.12
+CmdLine:	C:\Software\Data\Gdrive\my_java_projects\runsql_anony\QueryLight.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\Data\Gdrive\my_java_projects\runsql_anony\.
+Java min ver:	
+Java max ver:	
+Bundled JRE:	C:\Program Files\Java\jre1.8.0_51\
+Check launcher:	C:\Program Files\Java\jre1.8.0_51\bin\javaw.exe (OK)
+Heap -Xms:	Requested 2000 MB / 0%, Available: 1121 MB, Heap size: 2000 MB
+Heap -Xmx:	Requested 4000 MB / 0%, Available: 1121 MB, Heap size: 4000 MB
+Launcher:	C:\Program Files\Java\jre1.8.0_51\bin\javaw.exe
+Launcher args:	-Xms2000m -Xmx4000m -jar "C:\Software\Data\Gdrive\my_java_projects\runsql_anony\QueryLight.exe"
+Args length:	95/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Software\Data\Gdrive\my_java_projects\runsql_anony\QueryLight.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\Data\Gdrive\my_java_projects\runsql_anony\.
+Java min ver:	
+Java max ver:	
+Bundled JRE:	C:\Program Files\Java\jre1.8.0_51\
+Check launcher:	C:\Program Files\Java\jre1.8.0_51\bin\javaw.exe (OK)
+Heap -Xms:	Requested 2000 MB / 0%, Available: 1142 MB, Heap size: 2000 MB
+Heap -Xmx:	Requested 4000 MB / 0%, Available: 1142 MB, Heap size: 4000 MB
+Launcher:	C:\Program Files\Java\jre1.8.0_51\bin\javaw.exe
+Launcher args:	-Xms2000m -Xmx4000m -jar "C:\Software\Data\Gdrive\my_java_projects\runsql_anony\QueryLight.exe"
+Args length:	95/32768 chars
+Exit code:	0

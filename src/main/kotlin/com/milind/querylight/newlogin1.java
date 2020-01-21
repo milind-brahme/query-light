@@ -176,7 +176,7 @@ public class newlogin1 extends javax.swing.JDialog {
       //  DefaultComboBoxModel dcb = new DefaultComboBoxModel(bc.get_db_names());
         DefaultComboBoxModel dcb = new DefaultComboBoxModel(new StoredTnsEntries().getDb_list());
         this.v_database.setModel(dcb);
-        AutoCompleteDecorator.decorate(this.v_database);
+     //  AutoCompleteDecorator.decorate(this.v_database);
         this.v_database.setSelectedIndex(-1);
     }
 

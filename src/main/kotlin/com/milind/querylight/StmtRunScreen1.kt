@@ -1157,6 +1157,7 @@ class StmtRunScreen1(v_usr: String, v_password: String, v_jdbcstr: String, dbnam
             this.cursor = java.awt.Cursor(java.awt.Cursor.WAIT_CURSOR)
 
 
+  //  println("""Key + modifier  | ${evt.keyCode} | ${evt.modifiers}  | ${KeyEvent.CTRL_MASK}""")
 
             if (evt.keyCode == KeyEvent.VK_ENTER) {
                 if (evt.modifiers and KeyEvent.ALT_MASK != 0 && evt.keyCode == KeyEvent.VK_ENTER) {
@@ -1175,7 +1176,8 @@ class StmtRunScreen1(v_usr: String, v_password: String, v_jdbcstr: String, dbnam
                     threadMainQuery.start()
                 }
             }
-            } else if (evt.keyCode == KeyEvent.VK_TAB && evt.modifiers and KeyEvent.CTRL_MASK != 0 ) {
+
+            } else if (evt.keyCode == KeyEvent.VK_TAB) {
                 autoGenerateCode()
             }   else if (evt.keyCode == KeyEvent.VK_PERIOD )
             {
